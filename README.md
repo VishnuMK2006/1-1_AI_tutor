@@ -1,8 +1,10 @@
-# Welcome to your Lovable project
+# Welcome to your Ai tutor project
 
 ## Project info
 
-**URL**: https://lovable.dev/projects/8a08fd3b-6fee-4a7f-b522-0a640f18f7ac
+![image](https://github.com/user-attachments/assets/2978c226-7634-4c77-af76-c934ec20ac17)
+
+
 
 ## How can I edit this code?
 
@@ -24,16 +26,24 @@ Follow these steps:
 
 ```sh
 # Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+git remote add origin https://github.com/VishnuMK2006/1-1_AI_tutor.git
 
 # Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+cd 1-1_AI_tutor.git
 
 # Step 3: Install the necessary dependencies.
-npm i
+npm install
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Step 4: Install ollama tool.
+
+# Step 5: run mistral
+
+ollama run mistral
+
+# Step 6: Start the development server with auto-reloading and an instant preview.
 npm run dev
+
+Start learning
 ```
 
 **Edit a file directly in GitHub**
@@ -60,10 +70,3 @@ This project is built with .
 - shadcn-ui
 - Tailwind CSS
 
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/8a08fd3b-6fee-4a7f-b522-0a640f18f7ac) and click on Share -> Publish.
-
-## I want to use a custom domain - is that possible?
-
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
